@@ -1,2 +1,3 @@
-# landing-page-with-chakra-ui-part-1
-Created with CodeSandbox
+# Chakra UI NavBar component
+
+Open the live [CodeSandbox file](https://codesandbox.io/s/responsive-chakra-ui-navbar-hl8v0)
