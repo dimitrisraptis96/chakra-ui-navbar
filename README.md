@@ -1,3 +1,3 @@
 # Chakra UI NavBar component
 
-Open the live [CodeSandbox file](https://codesandbox.io/s/responsive-chakra-ui-navbar-hl8v0)
+Read the full tutorial on [my Chakra UI blog](https://raptis.wtf/blog/create-a-navbar-with-chakra-ui-react/)
