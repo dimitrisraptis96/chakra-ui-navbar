@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Box, Flex, Text, Button, Stack } from "@chakra-ui/react";
+import { Link, Box, Flex, Button, Stack } from "@chakra-ui/react";
 
 import Logo from "./Logo";
 
@@ -53,9 +53,7 @@ const MenuToggle = ({ toggle, isOpen }) => {
 const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
   return (
     <Link href={to}>
-      <Text display="block" {...rest}>
-        {children}
-      </Text>
+      <span {...rest}>{children}</span>
     </Link>
   );
 };
@@ -84,7 +82,7 @@ const MenuLinks = ({ isOpen }) => {
             color={["primary.500", "primary.500", "white", "white"]}
             bg={["white", "white", "primary.500", "primary.500"]}
             _hover={{
-              bg: ["primary.100", "primary.100", "primary.600", "primary.600"]
+              bg: ["primary.100", "primary.100", "primary.600", "primary.600"],
             }}
           >
             Create Account
